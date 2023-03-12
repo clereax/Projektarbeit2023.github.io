@@ -1,0 +1,865 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.738),rgba(0, 0, 0, 0.738)),url(pictures/real/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.banner {
+    background-color: #1a1a1ac4;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar h1 {
+    width: 120px;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.navbar ul li {
+    list-style: none;
+    display:block;
+    margin: 4 0px;
+    position: relative;
+    font-size: 14px;
+    text-align: right;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+  
+
+.how2Use {
+    margin: 1%;
+    background-color: #383838;
+    padding: 1%;
+    width: 70%;
+    border-radius: 21px;
+    border-color: black;
+}
+.how2Use h1 {
+    background-color: #383838;
+    width: 96%;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.how2Use p {
+    background-color: #383838;
+    width: 90%;
+    font-size: 15px;
+}
+
+.Mainboard-Nav {
+    position: relative;
+    width: 100%;
+}
+
+/*  Buttons  */
+
+.Mainboard-Nav #btn1 {
+    position: absolute;
+    top: 75.3%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffc8004b;
+    color: white;
+    width: 52%;
+    height: 3%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn2 {
+    position: absolute;
+    top: 78.8%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffc8004b;
+    color: white;
+    width: 52%;
+    height: 3%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn3 {
+    position: absolute;
+    top: 49.4%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1dbd0b67;
+    color: white;
+    width: 3.5%;
+    height: 33%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn4 {
+    position: absolute;
+    top: 90%;
+    left: 48.2%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0bbabd68;
+    color: white;
+    width: 21.8%;
+    height: 4.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn5 {
+    position: absolute;
+    top: 46.5%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0b11bd4b;
+    color: white;
+    width: 3.5%;
+    height: 32.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn6 {
+    position: absolute;
+    top: 85.4%;
+    left: 47.6%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #bd17f068;
+    color: white;
+    width: 22.8%;
+    height: 3.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn7 {
+    position: absolute;
+    top: 46.5%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #2f5f464b;
+    color: white;
+    width: 3.9%;
+    height: 32.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn8 {
+    position: absolute;
+    top: 58.6%;
+    left: 6.6%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #bd850b8f;
+    color: white;
+    width: 3.7%;
+    height: 19.6%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn9 {
+    position: absolute;
+    top: 38%;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #5f0b0b81;
+    color: white;
+    width: 3.5%;
+    height: 10%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+.Mainboard-Nav #btn10 {
+    position: absolute;
+    top: 35%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #db230e5d;
+    color: white;
+    width: 5.5%;
+    height: 5.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.Mainboard-Nav #btn11 {
+    position: absolute;
+    top: 69%;
+    left: 21.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #dbd80ebd;
+    color: white;
+    width: 7.5%;
+    height: 7.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: black;
+    visibility: hidden;
+}
+.Mainboard-Nav #btn12 {
+    position: absolute;
+    top: 69%;
+    left: 21.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #dbd80ebd;
+    color: white;
+    width: 7.5%;
+    height: 7.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: black;
+    visibility: hidden;
+}
+.Mainboard-Nav #btn13 {
+    position: absolute;
+    top: 87%;
+    left: 21.3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #dbd80ebd;
+    color: white;
+    width: 7.5%;
+    height: 7.5%;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: black;
+    visibility: hidden;
+}
+
+
+#mainboard {
+    width: 95%;
+    height: auto;
+}
+
+
+
+.Komp-head{
+
+    font-size: 23px;
+}
+#comp {
+    width: 76%;
+    height: auto;
+    border-radius: 70px;
+}
+#auswertungTXT {
+    visibility: hidden;
+}
+
+
+
+
+
+
+/*  Responsive Design  */
+
+
+/*  Tablet  */
+
+@media only screen and (min-width: 600px) {
+    
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 14px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .navbar h1 {
+        width: 120px;
+        cursor: pointer;
+        color: white;
+        text-decoration: underline;
+        font-size: 34px;
+    }
+    .navbar ul li {
+        list-style: none;
+        display:block;
+        margin: 4 0px;
+        position: relative;
+        font-size: 27px;
+        text-align: right;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+    }
+      
+    
+    .how2Use {
+        margin: 1%;
+        background-color: #383838;
+        padding: 1%;
+        width: 70%;
+        border-radius: 21px;
+        border-color: black;
+    }
+    .how2Use h1 {
+        background-color: #383838;
+        width: 96%;
+        text-decoration: underline;
+        font-size: 36px;
+    }
+    .how2Use p {
+        background-color: #383838;
+        width: 90%;
+        font-size: 24px;
+    }
+    
+    
+    .box {
+        position: absolute;
+        width: 50%;
+        left: 25%
+    
+    }
+    
+    .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 80px;
+    }
+    
+    .box .btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        
+    }
+
+
+    #mainheader {
+        font-size: 55px;
+    }
+    #compheader {
+        font-size: 45px;
+    }
+    #auswertungTXT {
+        font-size: 25px;
+    }
+
+    .Mainboard-Nav #btn1 {
+        position: absolute;
+        top: 75%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffc8004b;
+        color: white;
+        width: 52%;
+        height: 3%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn2 {
+        position: absolute;
+        top: 78.5%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffc8004b;
+        color: white;
+        width: 52%;
+        height: 3%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn3 {
+        position: absolute;
+        top: 49%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #1dbd0b67;
+        color: white;
+        width: 4%;
+        height: 33.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn4 {
+        position: absolute;
+        top: 90%;
+        left: 48.2%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0bbabd68;
+        color: white;
+        width: 21.8%;
+        height: 4.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn5 {
+        position: absolute;
+        top: 45%;
+        left: 11%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0b11bd4b;
+        color: white;
+        width: 3.8%;
+        height: 32%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn6 {
+        position: absolute;
+        top: 85.4%;
+        left: 47.6%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #bd17f068;
+        color: white;
+        width: 22.8%;
+        height: 3.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn7 {
+        position: absolute;
+        top: 46.5%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #2f5f464b;
+        color: white;
+        width: 3.9%;
+        height: 32.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn8 {
+        position: absolute;
+        top: 58.6%;
+        left: 6.8%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #bd850b8f;
+        color: white;
+        width: 4%;
+        height: 19.6%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn9 {
+        position: absolute;
+        top: 37%;
+        left: 34.5%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #5f0b0b81;
+        color: white;
+        width: 3.5%;
+        height: 10%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn10 {
+        position: absolute;
+        top: 34%;
+        left: 92%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #db230e5d;
+        color: white;
+        width: 5.5%;
+        height: 5.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }  
+    
+}
+
+/*  PC/Computer Version  */
+
+@media only screen and (min-width: 768px) {    
+    
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar h1 {
+        width: 120px;
+        cursor: pointer;
+        color: white;
+        text-decoration: underline;
+        font-size: 210%;
+    }
+    .navbar ul li {
+        color: white;
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+        font-size: 130%;
+        transition: 0.4s;
+    }
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.4s;
+    }
+    .navbar ul li a:hover {
+        font-size: 108%;
+        color: rgb(82, 164, 246);
+        transition: 0.5s;
+    }
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0%;
+        background-color: #04649ce1;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.4s;
+    }
+    .navbar ul li:hover::after {
+        width: 100%;
+        transition: 0.4s;
+    }
+      
+    
+    .how2Use {
+        margin: 1%;
+        background-color: #454545;
+        padding: 1%;
+        width: 37%;
+        border-radius: 21px;
+        border-color: black;
+    }
+    .how2Use h1 {
+        background-color: #454545;
+        width: 96%;
+        text-decoration: underline;
+    }
+    .how2Use p {
+        background-color: #454545;
+        width: 90%;
+    }
+    
+    
+    .box {
+        position: absolute;
+        width: 50%;
+        left: 25%
+    
+    }
+    
+    .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 80px;
+    }
+    
+    .box .btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        
+    }
+
+    .Mainboard-Nav {
+        position: relative;
+        width: 40%;
+    }
+
+
+    #mainheader {
+        font-size: 55px;
+    }
+    #compheader {
+        font-size: 35px;
+    }
+    #comp {
+        width: 33%;
+    }
+    #auswertungTXT {
+        margin-top: 30%;
+        font-size: 25px;
+    }
+
+    .Mainboard-Nav #btn1 {
+        position: absolute;
+        top: 75%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffc8004b;
+        color: white;
+        width: 52%;
+        height: 3%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn2 {
+        position: absolute;
+        top: 78.5%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffc8004b;
+        color: white;
+        width: 52%;
+        height: 3%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn3 {
+        position: absolute;
+        top: 49%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #1dbd0b67;
+        color: white;
+        width: 4%;
+        height: 33.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn4 {
+        position: absolute;
+        top: 90%;
+        left: 48.2%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0bbabd68;
+        color: white;
+        width: 21.8%;
+        height: 4.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn5 {
+        position: absolute;
+        top: 45%;
+        left: 11%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0b11bd4b;
+        color: white;
+        width: 3.8%;
+        height: 32%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn6 {
+        position: absolute;
+        top: 85.4%;
+        left: 47.6%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #bd17f068;
+        color: white;
+        width: 22.8%;
+        height: 3.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn7 {
+        position: absolute;
+        top: 46.5%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #2f5f464b;
+        color: white;
+        width: 3.9%;
+        height: 32.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn8 {
+        position: absolute;
+        top: 58.6%;
+        left: 6.8%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #bd850b8f;
+        color: white;
+        width: 4%;
+        height: 19.6%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn9 {
+        position: absolute;
+        top: 37%;
+        left: 34.5%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #5f0b0b81;
+        color: white;
+        width: 3.5%;
+        height: 10%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }
+    .Mainboard-Nav #btn10 {
+        position: absolute;
+        top: 34%;
+        left: 92%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #db230e5d;
+        color: white;
+        width: 5.5%;
+        height: 5.5%;
+        
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border-color: black;
+    }  
+}
+
+
+  
+
+
